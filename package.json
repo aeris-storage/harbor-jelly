@@ -1,0 +1,16 @@
+{
+  "name": "harbor-jelly",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Harbor Jelly — a single-file WebGPU material study of a working port inside a jelly ocean block.",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test test/choreography.test.mjs",
+    "test:e2e": "playwright test",
+    "test:all": "npm test && npm run test:e2e"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1"
+  }
+}

@@ -1,0 +1,10 @@
+node_modules/
+test-results/
+.DS_Store
+*.log
+# 以下由 WorkBuddy 自动加入，保护敏感文件
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
